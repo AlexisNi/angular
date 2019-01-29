@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.row {
+  margin: 0px;
+}
+div[class*="col"] {
+  padding: 0;
+}
+p {
+  margin: 0px;
+}
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #eeeeee radial-gradient(circle, transparent 1%, #eeeeee 1%)
+    center/15000%;
+  cursor: pointer;
+}
+.ripple:active {
+  background-color: #dddddd;
+  background-size: 100%;
+  transition: background 0s;
+}

@@ -1,0 +1,16 @@
+.main {
+  overflow: auto;
+  height: 94vh;
+  display: block;
+  overflow-y: overlay;
+  padding: 20px;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 100%;
+}
+.col-12 {
+  padding: 0px;
+  height: 100%;
+}

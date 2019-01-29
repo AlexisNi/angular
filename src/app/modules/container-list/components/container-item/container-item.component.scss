@@ -1,0 +1,30 @@
+$border: 1px solid #f8f9fa;
+$border-radius: 7px;
+.container-item-wrapper {
+  width: 100%;
+  display: flex;
+  border: $border;
+  height: 150px;
+  border-radius: $border-radius;
+
+  .container-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    .container-name {
+      font-size: 15px;
+    }
+    .container-status {
+      margin-left: auto;
+      height: 40px;
+      width: 100px;
+      border: $border;
+      border-radius: $border-radius;
+      &.active {
+        background-color: #228b22;
+      }
+    }
+  }
+}
